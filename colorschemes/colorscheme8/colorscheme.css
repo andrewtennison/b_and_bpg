@@ -1,0 +1,178 @@
+/*----------------------------------------------------------------------------
+	colorscheme.css for colorscheme 8
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background: repeat-y;
+    background-image: url(images/static/contentbg.gif);
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background: no-repeat bottom;
+    background-image: url(images/static/headerbg.gif);
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    background-color: #858E70;
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+    background: no-repeat top right;
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+#slogan {
+    background-color: #2D2F2C;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- main navigation items ------------------------------------------------*/
+
+a.main_nav_item {
+    background: no-repeat;
+    background-position: top left;
+}
+
+a.main_nav_item:hover {
+    background: no-repeat;
+    background-position: top left;
+}
+
+a.main_nav_active_item {
+    background: no-repeat;
+    background-position: top left;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_container {
+    background-color: #4E5843;
+}
+
+a.sub_nav_item {
+    background: no-repeat;
+}
+
+a.sub_nav_item:hover {
+    background: no-repeat;
+}
+
+a.sub_nav_active_item {
+    background: no-repeat;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    background: transparent top left no-repeat;
+    background-image: url(images/static/footerbg.gif);
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #ffffff;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content {
+    color: #7D7D7D;
+}
+
+.content table {
+    color: #7D7D7D;
+    border-color: #4E5843;
+}
+
+.content select {
+    color: #7D7D7D;
+}
+
+.content input {
+    color: #7D7D7D;
+    border-color: #4E5843;
+}
+
+.content textarea {
+    color: #7D7D7D;
+    border-color: #4E5843;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+/*--- links ----------------------------------------------------------------*/
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content th {
+    color: #ffffff;
+    background-color: #5E6A51;
+    border-color: #5E6A51;
+}
+
+.content tr.odd {
+    color: #818181;
+    background-color: #ffffff;
+}
+
+.content tr.even {
+    color: #818181;
+    background-color: #D8DDCD;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #7D7D7D;
+}
+
+.content legend {
+    color: #7D7D7D;
+}
+
+.content label {
+    color: #7D7D7D;
+}
+
+.content #submit {
+    background-color: #4E5843;
+    border-color: #4E5843;
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#sub_nav_column {
+    background: transparent bottom right no-repeat;
+    background-image: url(images/static/list.gif);
+}
+
+#weblog_calendar caption {
+    color: #ffffff;
+}
+
